@@ -1,0 +1,45 @@
+* {
+    background-color: bisque;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0, auto;
+    top: 30px;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+main {
+    position: relative;
+    top: 82px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+}
