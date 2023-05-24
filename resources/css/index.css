@@ -9,25 +9,19 @@
 nav {
     position: fixed;
     height: 80px;
-    border-bottom: 2px solid black;
     width: 100%;
+    border-bottom: 2px solid black;
+
+    display: flex;
+    justify-content: center;
     text-align: center;
     z-index: 1;
-}
-
-nav ul {
-    margin: 0, auto;
-    top: 30px;
-    position: relative;
-}
-
-nav li {
-    display: inline-block;
 }
 
 nav a {
     text-decoration: none;
     padding: 30px 20px;
+    border-radius: 10px;
 }
 
 nav a:hover {
@@ -36,22 +30,56 @@ nav a:hover {
 
 main {
     position: relative;
-    top: 82px;
-}
-
-.block {
-    display: inline-block;
-    margin-right: 40px;
-    margin-left: 40px;
-    text-align: left;
-}
-
-.block ul {
-    list-style-type: none;
-}
-
-.section {
-    position: relative;
     top: 100px;
-    text-align: center;
+    margin: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.banner h1 {
+    background-color: lightblue;
+    margin-right: 100px;
+}
+
+.banner img {
+    border-radius: 5px;
+}
+
+.about {
+    margin-top: 50px;
+    width: 100%;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.about-content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.about h2 {
+    background-color: lightblue;
+}
+
+.about p {
+    background-color: lightblue;
+}
+
+
+
